@@ -8,6 +8,7 @@ import (
 
 	"gorm.io/gorm/callbacks"
 
+	// Replaced with a pure go implementation
 	_ "github.com/glebarez/go-sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
